@@ -18,20 +18,9 @@
 // }
 // console.log("Harsh");
 
-// for(row=1;row<=5;row++){
-//     for(col=1;col<=5;col++){
-//         if(row==col){
-//             process.stdout.write("*")
-//         }else{
-//             process.stdout.write(" ")
-//         }
-//     }
-//     console.log();
-// }
-
 for(row=1;row<=5;row++){
     for(col=1;col<=5;col++){
-        if(row+col==6){
+        if(row==col){
             process.stdout.write("*")
         }else{
             process.stdout.write(" ")
@@ -39,3 +28,14 @@ for(row=1;row<=5;row++){
     }
     console.log();
 }
+
+// for(row=1;row<=5;row++){
+//     for(col=1;col<=5;col++){
+//         if(row+col==6){
+//             process.stdout.write("*")
+//         }else{
+//             process.stdout.write(" ")
+//         }
+//     }
+//     console.log();
+// }
