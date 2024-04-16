@@ -40,3 +40,26 @@ numa=Math.floor(numa/10);
 nod++;
 }
 console.log("numver 0f digits are:",nod);
+
+
+let nsp1=4;
+let nst1=1;
+
+for(let row=1;row<=9;row++){
+    for(let sp=1;sp<=nsp1;sp++){
+        process.stdout.write("  ");
+    }
+    for(let st=1;st<=nst1;st++){
+        process.stdout.write("* ");
+    }
+    console.log();
+
+    if(row<5){
+        nst1=nst1+2;
+        nsp1=nsp1-1;
+    } else{
+        nst1=nst1-2;
+        nsp1=nsp1+1;  
+    }
+   
+}
