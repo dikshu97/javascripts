@@ -1,13 +1,4 @@
-// function noofdigits(num) {
-//     let nod=1;
-//     while(num>0){
-//         num=Math.floor(num/10);
-//         nod++;
-//     }
-//     return nod;
-// }
-// let ans=noofdigits
-
+//basic function insertion
 
 
 function saymyname(){
@@ -32,3 +23,11 @@ function add(num1,num2){
     console.log(num1*num2);
 }
 add(56,10);
+
+
+
+
+function sum(a,b){
+    return(a,b);
+}
+console.log(sum(3,5));

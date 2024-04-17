@@ -1,0 +1,80 @@
+
+console.log("ES5");
+//question==1;
+
+function name() {
+  return "dikshu";
+  console.log("iam an idiot");  
+}
+let rv=name;
+console.log(rv());
+
+let rv2=console.log();
+console.log(rv2);
+
+//question==2;
+
+let addition2=function addition1(a,b,c,d) {
+    return a%b+c*d;
+}
+console.log(addition2(500,19,7,44));
+
+//question==3;
+
+let name1=function goodname(dikshu){
+return "dikshu";
+}
+console.log(name1("dikshu"));
+
+//question==4;
+
+let realname=function reelname(dikshu){
+    return"dikshit negta";
+}
+let rv3=realname;
+console.log(rv3("dikshit negta"));
+
+//question==4;
+
+let example=function name(a,b) {
+    return a*b;
+}
+let ans=example;
+console.log(ans(145,566));
+let ans1=example;
+console.log(ans1(678,905));
+let ans2=example;
+console.log(ans2(897,342));
+let ans3=example;
+console.log(ans3(908,222));
+let ans4=example;
+console.log(ans4(906,343));
+let ans5=example;
+console.log(ans5(2267,456));
+let ans6=example;
+console.log(ans6(845,566));
+console.log(example(345,567));
+
+//ES6 FUNCTIONS
+console.log("ES6 FUNCTIONS");
+
+//FAT ARROW FUNCTION
+//question==1;
+console.log("FAT ARROW FUNCTION");
+
+let space=()=>{
+    console.log("hello");
+}
+space();
+
+//question==2;
+console.log("FAT ARROW WITH MULTI PARAMETRES");
+
+let space1=(name,surname,address,city)=>{
+    console.log("my name is",name,surname,"i live in ",address,"my city is",city);
+}
+console.log(space1("dikshit","negta","karol bagh","delhi"));
+
+//question==3;
+console.log("FAT ARROW WITH SINGLE PARAMETRES");
+
