@@ -12,3 +12,4 @@ while(numa>0){
     nod++;
 }
 console.log("numbewr of digits are:",nod);
+

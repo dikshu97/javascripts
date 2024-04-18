@@ -78,3 +78,12 @@ console.log(space1("dikshit","negta","karol bagh","delhi"));
 //question==3;
 console.log("FAT ARROW WITH SINGLE PARAMETRES");
 
+let space5=(a,b)=> a+b;
+let xxx=space5;
+console.log(xxx(5,7));
+console.log("OR");
+let space6=name2=>console.log("hello",name2);
+let yyy=space6;
+space6("dikshu");
+
+//question==4;

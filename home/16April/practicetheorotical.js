@@ -46,7 +46,7 @@ console.log(addition(10,56,78));
 
 console.log("anonymous function");
 
-let myfun=function my() {
+let myfun=function () {
     console.log("iam anonymous function");
 }
 myfun()
