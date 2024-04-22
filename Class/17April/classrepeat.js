@@ -6,7 +6,7 @@ function myintro(x,y,z) {
     console.log("dikshu"+i);
     
   }
-
+ 
 }
 myintro();
 
