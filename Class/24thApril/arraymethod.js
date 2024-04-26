@@ -16,6 +16,10 @@ arr.unshift(100,200);    //==>adds the first number
 console.log(arr);
 arr.splice(2,3)        //==>removes the given index number
 console.log(arr);
+arr.unshift(100,200,300);
+console.log(arr);
+arr.push(200,300);
+console.log(arr);
 arr.slice(5,7);       
 console.log(arr);
 

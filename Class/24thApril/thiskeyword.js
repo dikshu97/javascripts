@@ -130,3 +130,9 @@ let object4={
     }
 }
 object4.fun();      //==>window object/element==>when parent and child are both fat arrow es6 function;
+
+
+let arr=[10,20,30,40,50,60,70,80];
+console.log(arr);
+arr.slice(2);
+console.log(arr);
