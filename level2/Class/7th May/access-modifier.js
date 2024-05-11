@@ -1,5 +1,5 @@
 class parent{
-    #firstname;
+    firstname;
     lastname;
     age;
     constructor(fname,lname,age){
