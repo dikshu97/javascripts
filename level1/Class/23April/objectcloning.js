@@ -1,5 +1,5 @@
 //object cloning 
-//1st method---spread operator
+//1st method---spread operator    ///changes appear in the object we have made changes in;
 
 let obj={
     name:"Dikshu",
@@ -10,7 +10,7 @@ let obj2={...obj}
 console.log("before",obj,obj2);
 // console.log(obj.length);
 obj.gender="Male"
-console.log("after",obj,obj2);
+console.log("after",obj,obj2);           ///changes appear in the object we have made changes in;     
 
 //2nd method--- traverse;
 let objj1={
