@@ -13,3 +13,5 @@ firstname="puneet"
 }
 let child1=new child();
 console.log(child1.firstname);
+
+
