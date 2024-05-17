@@ -1,0 +1,6 @@
+callbacks
+callback hell
+inversion of control
+
+promises
+promise chainning
