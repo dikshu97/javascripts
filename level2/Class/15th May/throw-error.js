@@ -1,3 +1,7 @@
+//throw new error on reject===>>will catch all the all the reject if it is used 
+//if not used==>reject will work only ine time unless you give as maany as reject
+
+
 let merapromise1=new Promise((resolve,reject)=>{
     reject(' resolved not promise'); 
      
@@ -33,3 +37,4 @@ let merapromise1=new Promise((resolve,reject)=>{
   }).catch(error=>{
     console.log(error);
   })
+  

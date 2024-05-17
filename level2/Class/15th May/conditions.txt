@@ -1,0 +1,7 @@
+conditions
+1==>return==> when you give return to the  then in promise it will  transfer the data to every then in the promise.
+
+2==>throw new error===>>when you add throw new error in the reject of a promise it will add custom error in every reject
+
+3==>>when you use reject before then in the promise it would go till then but the result will be undefined but when you use reject after then it would not give any result on then and woould go directly to reject
+

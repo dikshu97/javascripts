@@ -1,1 +1,6 @@
+ promise
+ timeout
+ throw new error
+ conditions
+ return
  
