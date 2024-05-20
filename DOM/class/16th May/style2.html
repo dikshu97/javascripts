@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .red{
+            color: yellow;
+            background-color: blue;
+            border: 3px solid black;
+            
+        }
+    </style>
+</head>
+<body>
+    <button class="redbutton">make me red</button>
+    <button class="greenbutton">make me green</button>
+    <button class="pinkbutton">make me pink</button>
+    <script>
+      let butns=document.querySelectorAll('button');
+      console.log(butns);
+      for(const elt of butns){
+        elt.onclick=elt.classList.add('red');
+      }
+
+    //  for(let btn of butns){
+    //     butns.onclick=function(){
+    //      this.classlist.add('red')
+    //     }
+    //  }
+
+    </script>
+</body>
+</html>

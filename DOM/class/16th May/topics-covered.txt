@@ -1,0 +1,13 @@
+DOM==docuument object model
+Topics covered are ===>>
+dom tree==>
+selectors(ways to catch the docuument)===>>html,queryselector
+
+html==>getid,getclassname
+
+
+
+events
+-----------------------------------------
+ways to catch the element==>>
+1==>>html==>>getelementbyid,getelementbytagname,getelementbyclass,loop

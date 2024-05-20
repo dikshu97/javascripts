@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .red{
+            color: yellow;
+            background-color: black;
+            
+        }
+        .green{
+            color: blue;
+            background-color: whitesmoke;
+            border-radius: 10px;
+            border: 4px solid yellowgreen;
+        }
+        .pink{
+            color: pink;
+        }
+
+        .yellow{
+            color: black;
+            background-color: blueviolet;
+        }
+        .grey{
+            color:whitesmoke;
+            background-color: purple;
+        }
+    </style>
+</head>
+<body>
+    <button > Click me</button>
+
+    <button class="btn1" onclick="changecolor()", ondblclick="removecolor()">make me red</button>
+    <button class="btn2" onclick="changecolor1()">make me green</button>
+    <script>
+        let button=document.querySelector("button");
+        console.log(button);
+        button.className="red";
+        button.className="green";
+
+    //classlist to add or remove class
+     button.classList.add("pink");
+     button.classList.remove('pink');
+     console.log('------------------------------------------------------------------------------------------------');
+     //other buttons
+     let lalbutton=document.querySelector(".btn1");
+     let harabutton=document.querySelector('.btn2');
+    //  lalbutton.classList.add('yellow');
+    //  harabutton.classList.add('grey');
+    function changecolor(){
+      lalbutton.classList.add('yellow')
+    }
+    function changecolor1(){
+      harabutton.classList.add('grey')
+    }
+    function removecolor(){
+     lalbutton.classlist.remove('yellow')
+    }
+    
+
+
+    </script>
+</body>
+</html>

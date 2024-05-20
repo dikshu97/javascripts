@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <button onclick="console.log('hello dikshu');">Click me</button> -->
+<h1 id="head1">hello duniya</h1>
+<h2 class="head3">hey duniya</h2>
+<h3 class="head2">hi world1</h3>
+<h3 class="head2">hi world2</h3>
+<h3 class="head2">hi world3</h3>
+<h3 class="head2">hi world4</h3>
+<h3 class="head2">hi world5</h3>
+<h3 class="head2">hi world6</h3>
+<h3 class="head2">hi world7</h3>
+<h3 class="head2">hi world8</h3>
+<h3 class="head2">hi world9</h3>
+<h3 class="head2">hi world10</h3>
+<h3 class="head2">hi world11</h3>
+<h3 class="head2">hi world12</h3>
+<h3 class="head2">hi world13</h3>
+<h3 class="head2">hi world14</h3>
+<p>Lorem ipsum dolor sit amet</p>
+
+
+    <script>
+    let heading1=document.getElementById("head1")
+    console.log(heading1);    ///gives and catches the element
+     let heading3=document.getElementsByClassName("head3");           
+     console.log(heading3);             ///gives html collection
+
+     let heading2=document.getElementsByClassName("head2");           
+     console.log(heading2);        ///gives elements in form of array when choosen more than one array
+
+     for(const elt of heading2){
+        console.log(elt);
+     }
+     console.log(heading2[7]);
+     console.log(heading2[5]);
+     let heading=document.getElementsByTagName("p");
+     console.log(heading);
+     for(let idx=0;idx<heading2;idx++){
+        console.log(heading2[idx]);
+     }
+
+   
+
+
+
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+ <h1>hello dice</h1>
+<h2 id="head2">hello duniya</h2>
+<h3 class="head3">hiiiiiiiiiiii</h3>
+<p>hello</p>
+<p>my</p>
+<p>name</p>
+<p>is</p>
+<p>dikshu</p>
+
+
+ <script>
+   //query selectors
+   //for tagname
+   let head1=document.querySelector("h1");
+   console.log(head1);
+
+   //for id
+   let head2=document.querySelector("#head2");
+   console.log(head2);
+
+   //for class
+   let head3= document.querySelector(".head3");
+   console.log(head3);
+   //for multiple tags
+   let headp=document.querySelectorAll("p");
+   console.log(headp);
+
+  //for of loop
+   for(const value of headp){
+    console.log(value);
+   }
+   //for loop
+   for(let idx=0;idx<headp.length;idx++){
+    console.log(headp[idx]);
+   }
+
+   //or whole body
+   let body=document.querySelectorAll("body");
+   console.log(body);
+
+   //html selector wil give html collection
+   //query selector will give nodelist
+   
+ </script>
+</body>
+</html>
