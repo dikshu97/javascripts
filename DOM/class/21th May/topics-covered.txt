@@ -1,0 +1,6 @@
+new element.html/js=>>
+create element
+catch element from html
+append/prepend
+innertext
+root.style.color.red
