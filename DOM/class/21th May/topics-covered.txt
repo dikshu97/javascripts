@@ -1,6 +1,11 @@
-new element.html/js=>>
+new element.js{
+    new element.html/js=>>
 create element
 catch element from html
 append/prepend
 innertext
 root.style.color.red
+}
+parent node(parent nodes.parent element)
+children(child nodes,children)
+siblings(next siblings ,previous sbilings ,next element siblings ,previous element siblings)
