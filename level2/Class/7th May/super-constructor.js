@@ -5,16 +5,14 @@ class parent{
     lastname;
     age;
     constructor( fname,lname,age){
-       
+       this.firstname=fname;
+       this.lastname=lname;
+       this.age=age
     }
 }
 class child extends parent{
-constructor(fname,lname,age){
-    super();
-  this.pehlanama=fname;
-  this.akhirinam=lname;
-  this.umar=age;
+
 }
-}
+
 let child1=new child('dikshu','negta',26);
 console.log(child1);
