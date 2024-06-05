@@ -10,3 +10,4 @@ for (let row = 1; row <=4; row++) {
     }
     console.log();
 }
+
