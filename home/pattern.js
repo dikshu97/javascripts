@@ -41,3 +41,33 @@ for(let row=1;row<=9;row++){
     nsp1=nst1+1;
   }
 }
+
+
+
+let num=78668;
+
+while (num>0) {
+  let ld=Math.floor(num%10);
+  console.log(ld);
+  num=Math.floor(num/10);
+
+}
+
+let number=76558;
+let temp=number;
+let nod=0;
+
+while (temp>0) {
+ temp=Math.floor(temp/10);
+  nod++;
+}
+console.log("number of digits are:",nod);
+
+let div=Math.pow(10,nod-1);
+
+while (div>0) {
+ let fd=Math.floor(number%div);
+ console.log(fd); 
+ number=number%div;
+ div=Math.floor(div/10);
+}
