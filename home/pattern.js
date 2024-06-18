@@ -3,10 +3,10 @@ let nst=5;
 
 for (let row = 1; row <=9; row++) {
 for(let sp=1;sp<=nsp;sp++){
-    process.stdout.write("  ");
+    process.stdout.write(" ");
 }
 for(let st=1;st<=nst;st++){
-    process.stdout.write("   *");
+    process.stdout.write(" *");
 }
 console.log();
 if (row<5) {
