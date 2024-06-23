@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 4px;
+        }
+        #calculator{
+            background-color:rgb(196, 150, 150);
+            width: 23%;
+            /* height: 600px; */
+            box-sizing: border-box;
+          border-radius: 10px;
+            padding: 13px;
+            border: 4px solid ;
+        }
+        input{
+            height: 80px;
+            width: 98%;
+            outline: none;
+            border-radius: 10px;
+            font-family: sans-serif;
+            font-size: 30px;
+        }
+        #buttons{
+            width: 99%;
+            background-color:rgb(196, 150, 150);
+            display: flex;
+            flex-wrap: wrap;
+           justify-content: space-evenly;
+            align-items: start;
+            gap: 10px;
+            box-sizing: border-box;
+            border-radius: 10px;
+        }
+        .ans{
+            height: 70px;
+            width: 70px;
+            margin: 15px;
+            font-family: sans-serif;
+            font-size: 40px;
+            border-radius: 50%;
+            border: 3px solid blue;
+            color: whitesmoke;
+            background-color: black;
+            text-align: center;
+        }
+        p{
+            margin-left: auto;
+            font-family: sans-serif;
+            font-size: 17px;
+            margin-left:280px;
+        }
+    </style>
+</head>
+<body>
+    <div id="calculator">
+    <input type="number">
+    <div id="buttons">
+       
+     <button class="ans" id="button1">1</button>
+     <button class="ans" id="button2">2</button>
+     <button class="ans" id="button3">3</button>
+     <button class="ans" id="button4">C</button>
+     <button class="ans" id="button5">4</button>
+     <button class="ans" id="button6">5</button>
+     <button class="ans" id="button7">6</button>
+     <button class="ans"id="button8">+</button>
+     <button class="ans" id="button9">7</button>
+     <button class="ans" id="button 10">8</button>
+     <button class="ans" id="button11">9</button>
+     <button class="ans" id="button12">-</button>
+     <button class="ans" id="button13">0</button>
+     
+     
+     <button class="ans" id="button14">*</button>
+     <button class="ans" id="button15">/</button>
+     <button class="ans" id="button16">=</button>
+    </div>
+    <P>Made in Himachal</P>
+    </div>
+    <script>
+        let ans1=document.getElementById("button1");
+        console.log(ans1);
+
+    </script>
+    
+</body>
+</html>
